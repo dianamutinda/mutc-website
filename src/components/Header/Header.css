@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: rgb(133, 179, 64);
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    text-transform: uppercase;
+    font-family: "Public Sans", sans-serif;
+    margin-left: 5rem;
+}
+.nav-list{
+    margin-right: 8rem;
+}
+.nav-items{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+.nav-item a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-family: "Public Sans", sans-serif;
+}

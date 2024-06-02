@@ -1,0 +1,40 @@
+
+.track-head{
+    display: grid;
+    place-content: center;
+    text-transform: uppercase;
+    padding-top: 70px;
+    font-size: 2rem;
+}
+.container{
+    display: flex;
+    gap:5rem;
+    margin-left: 3rem;
+    margin-top: 30px;
+}
+.trackImage img{
+    width: 35rem;
+
+}
+.track-text{
+    width: 50%;
+    margin-left: 2rem;
+    margin-top: 40px;
+
+}
+.track-title{
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.form{
+    width: 50%;
+}
+.track-form{
+    width: 100%;
+    display: flex;
+    padding-bottom: 20px;
+    
+}
+.form-container{
+    text-transform: capitalize;
+}

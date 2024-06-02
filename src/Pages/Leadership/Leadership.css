@@ -1,0 +1,46 @@
+.leadership-title{
+    display: grid;
+    place-content: center;
+    text-transform: uppercase;
+    padding-top: 70px;
+    font-size: 2rem;
+
+}
+.leadership{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.leader{
+    max-width: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: #114232;
+
+}
+.leaderImage img{
+    width: 18rem;
+    height: 18rem; ;
+    border-radius: 10px;
+}
+.leadership-text{
+    color: azure;
+
+}
+.leader-name{
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    display: grid;
+    place-content: center;
+}
+.biography{
+    text-align: center;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    background-color: #e3fadd;
+    font-family: "Public Sans", sans-serif;
+}
+.hero{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url(../../assets/bcg.jpg);
+    display: flex;
+    justify-content: center;
+    min-height: 85vh;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+
+}
+.hero-title{
+    font-size: 3rem;
+    text-align: center;
+    color: azure;
+}
+.hero-p{
+    font-size: 1.1rem;
+    text-align: center;
+    color: azure;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+}
+.about-text{
+    background-color: #A8CD9F;
+    display: flex;
+    flex-direction: column;
+    font-family: "Public Sans", sans-serif;
+}
+.about-title{
+    display: grid;
+    place-content: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-top: 10px;
+
+}
+.about-para{
+    text-align: center;
+    line-height: 2rem;
+    letter-spacing: .1rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cta{
+    text-decoration: none;
+    color: black;
+    background-color: #114232;
+    display: grid;
+    place-content: center;
+}
+
+.Testimonials-title{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    display: grid;
+    place-content: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+    font-size: 2rem;
+    
+}
+.testimonials{
+    width: 18rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #114232;
+    margin-top: 2rem;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.testimonials-image img{
+    width: 100px;
+    border-radius: 100%;
+    
+}
+.testimonials-text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+}
+.name{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+
+}
+.text{
+    text-align: center;
+}
